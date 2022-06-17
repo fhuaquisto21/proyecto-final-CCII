@@ -22,5 +22,5 @@ Getting started
 ----
 
 
-#SFML and Visual Studio
----
+SFML and Visual Studio
+===
