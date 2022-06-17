@@ -9,7 +9,7 @@ Visual Studio: 2017, 2019, 2022
 
 
 From SFML is multi-media – A Quick Start Guide
-----
+===
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SFML2.svg/800px-SFML2.svg.png)
 
@@ -19,8 +19,8 @@ Discover their features more in detail in the tutorials and the API documentatio
 
 
 Getting started
-----
+===
 
 
 SFML and Visual Studio
-===
+---
