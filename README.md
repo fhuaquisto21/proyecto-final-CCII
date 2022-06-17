@@ -33,5 +33,12 @@ This tutorial is the first one you should read if you're using SFML with the Vis
 Creating and configuring a SFML project
 ---
 
+The first thing to do is choose what kind of project to create. It is recommended to select "Empty Project". The dialog window offers a few other options to customize the project: select "Console application" or "Windows application" only if you know how to use pre-compiled headers.
+For the purpose of this tutorial, you should create a main.cpp file and add it to the project, so that we have access to the C++ settings (otherwise Visual Studio doesn't know which language you're going to use for this project). We'll explain what to put inside later.
+
+Now we need to tell the compiler where to find the SFML headers (.hpp files), and the linker where to find the SFML libraries (.lib files).
+
+In the project's properties, add:
+
 
 
