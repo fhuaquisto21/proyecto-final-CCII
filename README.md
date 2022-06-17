@@ -20,3 +20,7 @@ Discover their features more in detail in the tutorials and the API documentatio
 
 Getting started
 ----
+
+
+#SFML and Visual Studio
+---
