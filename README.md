@@ -30,4 +30,8 @@ Introduction
 
 This tutorial is the first one you should read if you're using SFML with the Visual Studio IDE (Visual C++ compiler). It will explain how to configure your SFML projects.
 
+Creating and configuring a SFML project
+---
+
+
 
