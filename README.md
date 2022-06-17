@@ -24,3 +24,6 @@ Getting started
 
 SFML and Visual Studio
 ---
+
+Introduction
+---
