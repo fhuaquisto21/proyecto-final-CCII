@@ -8,5 +8,5 @@ Compilers:
 Visual Studio: 2017, 2019, 2022
 
 
-From SFML – A Quick Start Guide
+From SFML is multi-media – A Quick Start Guide
 ----
