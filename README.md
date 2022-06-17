@@ -40,8 +40,8 @@ Now we need to tell the compiler where to find the SFML headers (.hpp files), an
 
 In the project's properties, add:
 
-The path to the SFML headers (<sfml-install-path>/include) to C/C++ » General » Additional Include Directories
-The path to the SFML libraries (<sfml-install-path>/lib) to Linker » General » Additional Library Directories
+*The path to the SFML headers (<sfml-install-path>/include) to C/C++ » General » Additional Include Directories
+*The path to the SFML libraries (<sfml-install-path>/lib) to Linker » General » Additional Library Directories
 
 
 
