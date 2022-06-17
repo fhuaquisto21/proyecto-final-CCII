@@ -1,5 +1,4 @@
 Testing
 ----
 C++ Standards:
-![](https://isocpp.org/std/the-standard)
-
+![](https://img.shields.io/github/stars/pandao/editor.md.svg)
