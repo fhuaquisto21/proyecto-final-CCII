@@ -13,7 +13,7 @@ dinero.
 
 ## Galería
 
-![diagrama_de_flujo](./galery/diagrama_de_flujo.jpg.jpeg)
+![diagrama_de_flujo](./galery/diagrama_de_flujo.jpg)
 ![scene_bioma](./galery/scene_bioma.jpeg)
 ![scene_items](./galery/scene_items.jpeg)
 ![scene_full](./galery/scene_full.jpeg)
