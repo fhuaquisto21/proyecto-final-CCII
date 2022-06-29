@@ -14,30 +14,37 @@
 class Game
 {
     private:
-        sf::RenderWindow window;
+        sf::RenderWindow* window;
+        sf::VideoMode videoMode;
 
 
-        sf:Sprite sprite1;
-        sf:Vector2u textureSize;
-        sf:Texture  texture;
+        sf::Sprite sprite1;
+        sf::Vector2u textureSize;
+        sf::Texture  texture1;
+
+        sf::Event ev;
 
 
         bool endGame;
         unsigned points;
-        int health;
-
+        int health;  
 
 
         void initVariables();
         void initWindow();
-        void initFonts();
-        void initText();
-        void initFood();
-        void initEnemies();
+        void initTexture();
+
+
+
 
     public:
-        Game();
+        Game();      
+        
+        const bool isRunning() const;
+
         virtual ~Game();
+        void pollEvents();
         
         void render();
+        void update();
 };
