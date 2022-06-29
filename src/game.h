@@ -3,6 +3,8 @@
 #include <ctime>
 #include <sstream>
 
+
+
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <SFML/Window.hpp>
@@ -18,9 +20,26 @@ class Game
         sf::VideoMode videoMode;
 
 
-        sf::Sprite sprite1;
-        sf::Vector2u textureSize;
-        sf::Texture  texture1;
+        sf::Sprite* sprite1;
+    
+        sf::Texture*  texture1;
+
+        sf::Sprite* sprite2;
+   
+        sf::Texture* texture2;
+
+        
+        sf::Sprite* sprite3;
+  
+        sf::Texture* texture3;
+
+        std::vector<sf::Sprite> walls;
+
+        sf::FloatRect nextPos;
+
+        sf::RectangleShape nextBox;
+        
+
 
         sf::Event ev;
 
@@ -30,15 +49,22 @@ class Game
         int health;  
 
 
-        void initVariables();
-        void initWindow();
-        void initTexture();
+        
 
 
 
 
     public:
-        Game();      
+        Game();  
+        void initVariables();
+        void initWindow();
+
+        void initTexture();
+        void initTexture2();
+        void initTexture3();
+
+        void  colisiones();  
+
         
         const bool isRunning() const;
 
